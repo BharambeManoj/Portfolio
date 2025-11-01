@@ -384,7 +384,7 @@ export const education = [
   },
 ];
 
-import Car_rental from "../image/urbanride.png"
+import Car_rental from "../image/urbanRide.png"
 import Rentora from "../image/rentora.png"
 export const projects = [
   {
