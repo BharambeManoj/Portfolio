@@ -56,7 +56,7 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-      
+
     ],
   },
   {
@@ -91,7 +91,7 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-      
+
     ],
   },
   // {
@@ -384,8 +384,9 @@ export const education = [
   },
 ];
 
-import Car_rental from "../image/urbanride.png"
+import Car_rental from "../image/urbanRide.png"
 import Rentora from "../image/rentora.png"
+import EasyDiet from "../image/EasyDiet.png"
 export const projects = [
   {
     id: 11,
@@ -394,10 +395,22 @@ export const projects = [
     description:
       "A sleek MERN-powered car rental platform with secure authentication, real-time bookings, and a smooth experience for both renters and owners.",
     image: Car_rental,
-    
+
     category: "web app",
-    
+
     webapp: "https://urbanride-rent.vercel.app/",
+  },
+  {
+    id: 11,
+    title: "EasyDiet",
+    date: "Jun 2025 - Feb 2026",
+    description:
+      "EasyDiet is an AI-powered diet assistant that creates personalized meal plans and nutrition guidance based on your goals, preferences, and dietary needs.",
+    image: EasyDiet,
+
+    category: "web app",
+
+    webapp: "https://easy-diet-ai-assistant.vercel.app/",
   },
   {
     id: 1,
@@ -406,12 +419,12 @@ export const projects = [
     description:
       "A sleek MERN-powered booking platform for holiday villas and houses, offering secure logins, real-time availability, and a smooth experience for travelers and hosts.",
     image: Rentora,
-    
+
     category: "web app",
-    
+
     webapp: "https://rentora-client.vercel.app/",
   },
-  
+
 ];
 
 export const TimeLineData = [
